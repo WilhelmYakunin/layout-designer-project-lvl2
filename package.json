@@ -1,0 +1,27 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilhelmYakunin/layout-designer-project-lvl2.git"
+  },
+  "name": "music",
+  "version": "1.0.0",
+  "description": "music box portal",
+  "main": "index.html",
+  "devDependencies": {
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "music",
+    "music-box",
+    "box"
+  ],
+  "author": "Wilhelm Yakunin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilhelmYakunin/layout-designer-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/WilhelmYakunin/layout-designer-project-lvl2#readme"
+}
