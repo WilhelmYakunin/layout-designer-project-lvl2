@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/WilhelmYakunin/layout-designer-project-lvl2/issues"
   },
-  "homepage": "https://github.com/WilhelmYakunin/layout-designer-project-lvl2#readme"
+  "homepage": "https://github.com/WilhelmYakunin/layout-designer-project-lvl2#readme",
+  "dependencies": {
+    "htmlhint": "^0.14.1",
+    "stylelint": "^13.6.1",
+    "surge": "^0.21.3"
+  }
 }

@@ -1,0 +1,64 @@
+$x-font-stack: Roboto, sans-serif;
+
+$breakpoints: (
+    xs: 320px,
+    s: 375px,
+    sm: 425px,
+    lm: 768px,
+    l: 992px,
+    xl: 1280px
+);
+
+$font-size: (
+    xxs: 11px,
+    xs: 12px,
+    s: 13px,
+    sm: 14px,
+    m: 16px,
+    lm: 18px,
+    l: 20px,
+    xl: 30px,
+    xxl: 60px
+);
+
+$line-heigth: (
+    xxs: 11px,
+    xs: 12px,
+    s: 13px,
+    sm: 14px,
+    m: 16px,
+    lm: 19px,
+    l: 21px,
+    xl: 23px,
+    xxl: 35px
+);
+
+
+$x-black: #08020D;
+$x-white: #FFFFFF;
+$x-light-grey: #808080;
+$x-asphalt-grey: #3C3B3D;
+$x-salat-green: #34C176;
+$x-malina-red: #FF4157;
+$x-transparent-white: rgba(255, 255, 255, 0.1);
+$x-peal-white: #CACACA;
+$x-lenear-gradient: linear-gradient(89.02deg, #5328A1 32.83%, #95390C 81.56%);
+
+$font--famaly-primary: $x-font-stack;
+
+$palette-background-primary: $x-black;
+$palette-background-secondary: $x-lenear-gradient;
+
+$palette-text-primary: $x-white;
+$palette-text-secondary: $x-peal-white;
+
+$palette-button-access: $x-salat-green;
+$palette-button-download-app: $x-malina-red;
+
+$palette-search-form-background: $x-asphalt-grey;
+
+$palette-is-not-active-link: $x-light-grey;
+$palette-is-active-link: $x-white;
+
+$palette-inputs: $x-transparent-white;
+
