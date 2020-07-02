@@ -18,8 +18,13 @@ input[type=text]::-webkit-input-placeholder {
   margin: auto;
 }
 
+.holster--margin-top-100 {
+  margin-top: 100px;
+}
+
 .background-image {
-  background: url("/images/banner.png") center no-repeat;
+  background: url("/images/banner.png") no-repeat;
+  background-size: 100%;
 }
 
 .c-header {
@@ -133,15 +138,15 @@ input[type=text]::-webkit-input-placeholder {
 }
 
 .b-subscribe__types--text-uppercase-center {
-  text-transform: uppercase;
   text-align: center;
-  padding: 70px 0 20px 0;
+  text-transform: uppercase;
+  margin-bottom: 50px;
 }
 
 .b-subscribe__container--flex-three-rows {
   margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .b-subscribe__free {
@@ -154,17 +159,20 @@ input[type=text]::-webkit-input-placeholder {
   background-image: url("/images/subscribe_3.png");
 }
 .b-subscribe__free--card, .b-subscribe__standart--card, .b-subscribe__premium--card {
-  padding: 0px 70px 70px 20px;
-  font-size: 24px;
-  width: 33%;
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 24px;
+  height: 580px;
+  width: 30%;
+  background-repeat: no-repeat;
   text-transform: uppercase;
 }
 .b-subscribe__button--border-text-white {
-  padding: 10px;
+  width: 90%;
+  text-align: center;
+  padding: 15px;
   border: 4px solid #FFFFFF;
   box-sizing: border-box;
   border-radius: 4px;
@@ -172,21 +180,152 @@ input[type=text]::-webkit-input-placeholder {
   text-decoration: none;
 }
 .b-subscribe__container--text-xxl {
-  margin-top: 200px;
+  margin-bottom: 0;
   font-size: 60px;
 }
 .b-subscribe__container--text-l {
-  font-size: 20px;
+  font-size: 28px;
 }
 .b-subscribe__container--text-xxs {
+  width: 95%;
   font-size: 11px;
   text-transform: lowercase;
+  text-align: center;
 }
 
 .b-subscribe__info--padding-text-center {
-  padding: 0 20px;
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
+}
+
+.b-news__header--text-uppercase-center {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.c-news--flex-two-columns {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-news--width45-flex-column {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.c-news--text-color-secondary {
+  color: #CACACA;
+}
+
+.b-news-releas-data--flex {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.b-news-releas-data__music-box--yellow-uppercase {
+  text-transform: uppercase;
+  color: #F89202;
+}
+
+.b-news-releas-data--text-grey {
+  color: #3C3B3D;
+}
+
+.b-news__button--uppercase-white {
+  width: 35%;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 40px;
+  border: 4px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #3C3B3D;
+  text-decoration: none;
+}
+
+.b-mobile-application__header--center-uppercase {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.c-mobile-application--flex-two-columns {
+  display: flex;
+  align-items: center;
+}
+
+.b-mobile-application__text--width50 {
+  width: 50%;
+  color: #808080;
+}
+
+.b-mobile-application__button--malina {
+  width: 30%;
+  padding: 15px;
+  background-color: #FF4157;
+  border-radius: 50px;
+  color: #FFFFFF;
+  border: 1px solid #FF4157;
+}
+
+.b-mobile-application__img--center {
+  width: 20%;
+  margin: auto;
+}
+
+footer {
+  background-image: linear-gradient(89.02deg, #5328A1 32.83%, #95390C 81.56%);
+}
+
+.b-footer--flex-four-columns {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.b-footer--list-style-margin-first-child {
+  padding-left: 0px;
+  list-style-type: none;
+}
+.b-footer--list-style-margin-first-child > :first-child {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.b-about__item--text-no-decoration-text-secondary {
+  line-height: 150%;
+  color: #CACACA;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.b-social__wrapper--flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.b-footer-navigation--flex {
+  width: 55%;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.b-footer--white-line {
+  padding-top: 50px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.b-support__item--link {
+  text-decoration: none;
+  color: #CACACA;
 }
 
 /*# sourceMappingURL=style.css.map */

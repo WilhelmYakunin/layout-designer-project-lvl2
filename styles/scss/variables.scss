@@ -41,6 +41,7 @@ $x-asphalt-grey: #3C3B3D;
 $x-salat-green: #34C176;
 $x-malina-red: #FF4157;
 $x-transparent-white: rgba(255, 255, 255, 0.1);
+$x-yellow: #F89202;
 $x-peal-white: #CACACA;
 $x-lenear-gradient: linear-gradient(89.02deg, #5328A1 32.83%, #95390C 81.56%);
 
@@ -61,4 +62,7 @@ $palette-is-not-active-link: $x-light-grey;
 $palette-is-active-link: $x-white;
 
 $palette-inputs: $x-transparent-white;
+
+$palette-news-music-box: $x-yellow;
+$palette-footer: $x-lenear-gradient;
 
