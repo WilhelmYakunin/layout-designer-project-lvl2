@@ -7,4 +7,4 @@ publish:
 	npm publish --dry-run
 
 lint:
-	npx stylelint style.css
+	npx stylelint ./styles/style.css
