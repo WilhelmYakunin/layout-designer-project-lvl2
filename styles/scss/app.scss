@@ -24,7 +24,7 @@ input[type="text"]::-webkit-input-placeholder {
 .wrapper {
     margin: auto;
     max-width: 1200px;
-    @media (max-width: 1280px) {
+    @media (min-width: 320px) {
         width: 87%;
     }
 }
@@ -570,15 +570,17 @@ input[type="text"]::-webkit-input-placeholder {
     font-size: 14px;
 
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     }
     &--img {
         height: 50px;
+        width: 50px;
         margin-right: 10px;
         &>img {
             width: 100%;
             height: 100%;
-            object-fit: contain;
+            object-fit: cover;
         }
         @media (min-width: 768px) {
             height: 55px;
@@ -661,7 +663,6 @@ input[type="text"]::-webkit-input-placeholder {
     }
     &--letter-from-egypt-album {
         background: url("../images/Letter from Egypt.png");
- 
     }
     &--vogts-villa-album {
         background: url("../images/Vogts Villa.png");
@@ -695,21 +696,14 @@ input[type="text"]::-webkit-input-placeholder {
 
 .b-similiar-artists__artist--standart {
     height: 250px;
-    width: 130px;
+    width: 120px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin: auto;
     font-size: 16px;
     line-height: 150%;
-    @media (min-width: 768px) {
-        height: 270px;
-        width: 150px;
-    }
-    @media (min-width: 1280px) {
-        height: 340px;
-        width: 220px;
-    }
+    
 }
 
 .b-similiar-artists__avatar--standart {
@@ -721,14 +715,13 @@ input[type="text"]::-webkit-input-placeholder {
         background-size: cover;
     }
     @media (min-width: 768px) {
+        height: 160px;
+        width: 160px;
+    }
+    @media (min-width: 1280px) {
         height: 180px;
         width: 180px;
     }
-    @media (min-width: 1280px) {
-        height: 200px;
-        width: 200px;
-    }
-   
 }
 
 .b-diskography-album__description {
