@@ -14,55 +14,68 @@
 
 </head>
 
-<body class="">
-    <div class="background-image">
-        <div class="holster">
-            <header class="c-header">
-                <div class="b-site-logo 
-                    b-site-logo--d-flex b-site-logo--f-align-center">
-                    <img class="b-site-logo--padding-5px" src=".\images\logo.svg" alt="логотип сайта" height="17">
-                    <p class="b-site-logo--text-uppercase 
-                        b-site-logo--text-xxs">Music&nbsp;box</p>
-                </div>
-                <nav class="b-site-navigation">
-                    <ul class="b-site-links__links-container
-                        b-site-links__links-container--inline-navigation">
-                        <li class="b-site-links__link">
-                            <a class="b-site-links__link--link" href="#">Главная</a>
-                        </li>
-                        <li class="b-site-links__link">
-                            <a class="b-site-links__link--link" href="#">Каталог</a>
-                        </li>
-                        <li class="b-site-links__link">
-                            <a class="b-site-links__link--link" href="#">Исполнители</a>
-                        </li>
-                        <li class="b-site-links__link">
-                            <a class="b-site-links__link--link" href="#">Контакты</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="b-search-form">
-                    <input class="b-search-form--grey-br-50" placeholder="поиск..." type="search">
-                </div>
-            </header>
-        </div>
+<body>
+    <div class="b-background b-background--layouts b-background--main-page">
+        <header>
+            <div class="wrapper">
+                <header class="c-b-header">
+                    <div class="b-site-logo 
+                            b-site-logo--ordinary-flex">
+                        <img class="b-site-logo--padding-5px" src=".\images\logo.svg" alt="логотип сайта" height="17">
+                        <p>Music&nbsp;box</p>
+                    </div>
+                    <nav class="b-site-navigation b-site-navigation--moveable">
+                        <ul class="b-site-navigation--adaptive-container">
+                            <li>
+                                <a class="b-site-navigation--main-link" href="#">
+                                    Главная
+                                </a>
+                            </li>
+                            <li>
+                                <a class="b-site-navigation--main-link" href="#">
+                                    Каталог
+                                </a>
+                            </li>
+                            <li>
+                                <a class="b-site-navigation--main-link" href="/catalog.html">
+                                    Исполнители
+                                </a>
+                            </li>
+                            <li>
+                                <a class="b-site-navigation--main-link" href="#">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="b-search-form b-search-form--moveable">
+                        <input class="b-search-form--grey-br-50" placeholder="поиск..." type="search">
+                    </div>
+                </header>
+            </div>
+        </header>
 
-        <div class="holster">
-            <div class="b-main-page-access b-main-page-access--flex-center">
-                <div class="b-main-page-access__text 
-                        b-main-page-access__text--center-uppercase">
-                    <h1 class="b-main-page-access__text--xxl">
+
+        <div class="wrapper wrapper--margin-top-100 wrapper--padding-bottom-100px">
+            <div class="b-main-page-access b-main-page-access--container">
+
+                <div class="b-main-page-access b-main-page-access__text 
+                        b-main-page-access__text--standart">
+                    <h1>
                         Онлайн музыка где угодно
                     </h1>
-                    <h3>без ограничений</h3>
+                    <h2>без ограничений</h2>
+
+                    <p class="b-main-page-access b-main-page-access__text 
+                    b-main-page-access__text--small">
+                        Получите доступ всего за несколько шагов.
+                        Заполните форму ниже и откройте мир музыки
+                    </p>
+
                 </div>
-                <p>
-                    Получите доступ всего за несколько шагов.
-                    Заполните форму ниже и откройте мир музыки
-                </p>
 
                 <form class="b-main-page-acces-form
-                        b-main-page-acces-form--flex-two-column" method="get">
+                        b-main-page-acces-form--standart" method="get">
                     <input class="b-main-page-acces-form__name
                             b-main-page-acces-form__name--inputs" type="text" id="fname" name="fname"
                         placeholder="Имя">
@@ -80,17 +93,16 @@
     </div>
     <main>
 
-        <div class="holster holster--margin-top-100">
+        <div class="wrapper wrapper--padding-top-100px">
             <section class="b-subscribe">
                 <h2 class="visually-hidden">Варианты подписки</h2>
-                <div class="b-subscribe__types 
-                b-subscribe__types--text-uppercase-center">
-                    <h2>
+                
+                <h2 class="b-subscribe b-subscribe__header 
+                b-subscribe__types--header">
                         Формы подписки
-                    </h2>
-                </div>
-                <ul class="b-subscribe__container 
-                b-subscribe__container--flex-three-rows">
+                </h2>
+                
+                <ul class="b-subscribe b-subscribe--container">
                     <li class="b-subscribe__free
                         b-subscribe__free--card">
                         <p>Бесплатная</p>
@@ -119,7 +131,7 @@
                             доступ ко всей коллекции музыки в среднем качестве
                         </p>
                     </li>
-                    
+
                     <li class="b-subscribe__premium
                         b-subscribe__premium--card">
                         <p>Премиум</p>
@@ -134,7 +146,7 @@
                         </p>
                     </li>
                 </ul>
-                <div class="b-subscribe__info b-subscribe__info--padding-text-center">
+                <div class="b-subscribe b-subscribe__info b-subscribe__info--standart">
                     <p>
                         На всех тарифах возможно прослушивание музыки
                         с мобильных устройств. На премиум тарифе
@@ -145,15 +157,14 @@
             </section>
         </div>
 
-        <div class="holster holster--margin-top-100">
+        <div class="wrapper wrapper--padding-top-100px">
             <section class="b-news">
-                <h2 class="b-news__header b-news__header--text-uppercase-center">
-                    Последние&nbsp;новости
+                <h2 class="b-news b-news__header b-news__header--standart">
+                    Последние новости
                 </h2>
                 <article class="c-news c-news--flex-two-columns">
                     <div class="b-eminem b-eminem__img b-eminem__img--width45">
-                        <img src="images\Music to Be Murdered By.png" 
-                        alt="eminem photo">
+                        <img src="images\Music to Be Murdered By.png" alt="eminem photo">
                     </div>
                     <div class="c-news c-news--width45-flex-column">
                         <h2 class="b-eminem__prewiew">Music to Be Murdered By</h2>
@@ -217,7 +228,7 @@
             </section>
         </div>
 
-        <div class="holster holster--margin-top-100">
+        <div class="wrapper wrapper--padding-top-100px wrapper--padding-bottom-100px">
             <section class="b-mobile-application">
                 <h2 class="b-mobile-application__header
             b-mobile-application__header--center-uppercase">
@@ -247,8 +258,8 @@
         </div>
     </main>
     <footer>
-        <div class="holster holster--margin-top-100">
-            <div class="b-footer b-footer--flex-four-columns">
+        <div class="wrapper wrapper--margin-top-100">
+            <div class="b-footer b-footer--container">
                 <ul class="b-about b-footer--list-style-margin-first-child">
                     <li class="b-about__item">
                         <a class="b-about__item--text-no-decoration-text-secondary" href="#">
@@ -356,9 +367,11 @@
                 </ul>
             </div>
         </div>
+
         <div class="b-footer b-footer--white-line"></div>
-        <div class="holster">
-            <ul class="b-footer-navigation b-footer-navigation--flex">
+
+        <div class="wrapper">
+            <ul class="b-footer-navigation b-footer-navigation--container">
                 <li class="b-support__item">
                     <a href="#" class="b-support__item--link">
                         Магазин

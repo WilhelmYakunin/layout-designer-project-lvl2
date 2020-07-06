@@ -45,6 +45,8 @@ $x-transparent-white: rgba(255, 255, 255, 0.1);
 $x-yellow: #F89202;
 $x-peal-white: #CACACA;
 $x-lenear-gradient: linear-gradient(89.02deg, #5328A1 32.83%, #95390C 81.56%);
+$x-violet: #5328a1;
+$x-dark-orange: #95390c;
 
 $font--famaly-primary: $x-font-stack;
 
@@ -57,6 +59,8 @@ $palette-text-news: $x-grey;
 
 $palette-button-access: $x-salat-green;
 $palette-button-download-app: $x-malina-red;
+$palette-button-mix: $x-violet;
+$palette-button-select: $x-dark-orange;
 
 $palette-search-form-background: $x-asphalt-grey;
 
