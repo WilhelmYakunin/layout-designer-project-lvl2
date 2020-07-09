@@ -1,0 +1,42 @@
+input[type="text"]::-webkit-input-placeholder {
+    color: $palette-text-primary;
+}
+
+.b-main-page-acces-form-container {
+    max-width: 570px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    flex-wrap: wrap;
+
+}
+
+.main-page-acces-inputs {
+    margin-bottom: 20px;
+    color: $palette-text-primary;
+    padding: 15px;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    border-radius: 3px;
+    @media (min-width: 768px) {
+        margin-bottom: 0px;
+        width: 45%;
+    }
+}
+
+.main-page-acces-form-button {
+    height: 40px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    color: $palette-text-primary;
+    text-transform: uppercase;
+    background-color: $palette-button-access;
+    @media (min-width: 768px) {
+        margin-top: 20px;
+    }
+}

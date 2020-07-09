@@ -1,0 +1,37 @@
+.b-similiar-artists-container {
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.similiar-artists-styles {
+    height: 200px;
+    width: 120px;
+    @media (min-width: 768px) {
+        height: 250px;
+        width: 190px;
+    }
+    @media (min-width: 1280px) {
+        height: 310px;
+        width: 250px;
+    }
+}
+
+.artists-avatar-styles {
+    height: 130px;
+    width: 130px;
+    &>img {
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+    }
+    @media (min-width: 768px) {
+        height: 190px;
+        width: 190px;
+    }
+    @media (min-width: 1280px) {
+        height: 250px;
+        width: 250px;
+    }
+}

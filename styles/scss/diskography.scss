@@ -1,0 +1,92 @@
+.b-diskography__header--font-size {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.diskography-container {
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @media (min-width: 1280px) {
+        justify-content: initial;
+    }
+}
+
+.fsz-16-20 {
+    font-size: 16px;
+    @media (min-width: 1024px) {
+        font-size: 20px;
+    }
+}
+
+.diskography-album-container {
+    height: 250px;
+    width: 130px;
+    align-content: stretch;
+    line-height: 150%;
+    @media (min-width: 425px) {
+        height: 300px;
+        width: 180px;
+    }
+    @media (min-width: 768px) {
+        height: 340px;
+        width: 230px;
+    }
+    @media (min-width: 1024px) {
+        height: 380px;
+        width: 300px;
+    }
+}
+
+.album {
+    &-container {
+        height: 130px;
+        width: 130px;
+        align-items: flex-end;
+        @media (min-width: 768px) {
+            height: 200px;
+            width: 200px;
+        }
+        @media (min-width: 1280px) {
+            height: 250px;
+            width: 250px;
+        }
+    }
+    
+    &-brother-album {
+        background: url("../images/Brother.png");
+        background-size: cover;
+    }
+    &-out-of-my-hands-album {
+        background: url("../images/Out of My Hands.png");
+        background-size: cover;
+    }
+    &-letter-from-egypt-album {
+        background: url("../images/Letter from Egypt.png");
+    }
+    &-vogts-villa-album {
+        background: url("../images/Vogts Villa.png");
+        background-size: cover;
+    }
+    &-wild-seed-album {
+        background: url("../images/Wild Seed.png");
+        background-size: cover; 
+    }
+    &-poetenes-evangelium-album {
+        background: url("../images/Poetenes Evangelium.png");
+        background-size: cover; 
+    }
+}
+
+.button-albums {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    height: 17px;
+    @media (min-width: 768px) {
+        margin-left: 15px;
+        margin-bottom: 10px;
+        height: 34px;
+    }
+}

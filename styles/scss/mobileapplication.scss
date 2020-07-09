@@ -1,0 +1,48 @@
+.mobile-application-container {
+    flex-direction: column-reverse;
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
+}
+
+.mobile-application-text-container {
+    width: 100%;
+    color: $palette-is-not-active-link;
+    @media (min-width: 768px) {
+        width: 45%;
+    }
+}
+
+.mobile-application-img-container {
+    width: 20%;
+    margin: auto;
+    &>img {
+        position: relative;
+        top: 20px;
+        left: -120px;
+        margin: 0;
+        height: 90%;
+        object-fit: cover;
+        @media (min-width: 768px) {
+            position: static;
+            width: 180%;
+            height: 180%;
+        }
+    }
+}
+
+.mobile-application-button {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: $palette-button-download-app;
+    border-radius: 50px;
+    color: $palette-text-primary;
+    border: 1px solid $palette-button-download-app;
+    width: 100%;
+    @media (min-width: 768px) {
+        width: 50%;
+    }
+    @media (min-width: 1024px) {
+        width: 35%;
+    }
+}

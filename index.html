@@ -15,228 +15,205 @@
 </head>
 
 <body>
-    <div class="b-background b-background--layouts b-background--main-page">
-        <header>
-            <div class="wrapper">
-                <header class="c-b-header">
-                    <div class="b-site-logo 
-                            b-site-logo--ordinary-flex">
-                        <img class="b-site-logo--padding-5px" src=".\images\logo.svg" alt="логотип сайта" height="17">
-                        <p>Music&nbsp;box</p>
-                    </div>
-                    <nav class="b-site-navigation b-site-navigation--moveable">
-                        <ul class="b-site-navigation--adaptive-container">
-                            <li>
-                                <a class="b-site-navigation--main-link" href="index.html">
-                                    Главная
-                                </a>
-                            </li>
-                            <li>
-                                <a class="b-site-navigation--main-link" href="#">
-                                    Каталог
-                                </a>
-                            </li>
-                            <li>
-                                <a class="b-site-navigation--main-link" href="/catalog.html">
-                                    Исполнители
-                                </a>
-                            </li>
-                            <li>
-                                <a class="b-site-navigation--main-link" href="#">
-                                    Контакты
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="b-search-form b-search-form--moveable">
-                        <input class="b-search-form--grey-br-50" placeholder="поиск..." type="search">
-                    </div>
-                </header>
+    <div class="bg-layout-cover-norepeat-position-center bg-main-page">
+
+        <header class="wrapper header-container f-content-sb">
+            <div class="site-logo-container site-logo-order display-flex f-content-sb f-align-center">
+                <img class="h-20-17" src=".\images\logo.svg" alt="логотип сайта">
+                <p class="fsz11 txt-up">Music&nbsp;box</p>
+            </div>
+            <nav class="site-navigation-order">
+                <ul class="site-navigation-container display-flex list-style-none fsz11 txt-up">
+                    <li>
+                        <a class="site-navigation-link txt-decor-none" href="index.html">
+                            Главная
+                        </a>
+                    </li>
+                    <li>
+                        <a class="site-navigation-link txt-decor-none" href="#">
+                            Каталог
+                        </a>
+                    </li>
+                    <li>
+                        <a class="site-navigation-link txt-decor-none" href="/catalog.html">
+                            Исполнители
+                        </a>
+                    </li>
+                    <li>
+                        <a class="site-navigation-link txt-decor-none" href="#">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="search-form-container search-form-order">
+                <input class="search-input-styles" placeholder="поиск..." type="search">
             </div>
         </header>
 
 
-        <div class="wrapper wrapper--margin-top-100 wrapper--padding-bottom-100px">
-            <div class="b-main-page-access b-main-page-access--container">
+        <div class="wrapper pt100 pb100 main-page-access-container display-flex f-direction-column f-align-center">
 
-                <div class="b-main-page-access b-main-page-access__text 
-                        b-main-page-access__text--standart">
-                    <h1>
-                        Онлайн музыка где угодно
-                    </h1>
-                    <h2>без ограничений</h2>
 
-                    <p class="b-main-page-access b-main-page-access__text 
-                    b-main-page-access__text--small">
-                        Получите доступ всего за несколько шагов.
-                        Заполните форму ниже и откройте мир музыки
-                    </p>
+            <h1 class="fsz-30-60 txt-up txt-center p-m-0">
+                Онлайн музыка где угодно
+            </h1>
 
-                </div>
+            <h2 class="fsz-18-30 txt-up txt-center">без ограничений</h2>
 
-                <form class="b-main-page-acces-form
-                        b-main-page-acces-form--standart" method="get">
-                    <input class="b-main-page-acces-form__name
-                            b-main-page-acces-form__name--inputs" type="text" id="fname" name="fname"
-                        placeholder="Имя">
-                    <input class="b-main-page-acces-form__email
-                            b-main-page-acces-form__email--inputs" type="text" id="email" name="email"
-                        placeholder="Email">
-                    <button class="b-main-page-acces-form__button
-                            b-main-page-acces-form__button--form-button">
-                        получить доступ
-                    </button>
-                </form>
-            </div>
+            <p class="fsz-12-18 txt-center">
+                Получите доступ всего за несколько шагов.
+                Заполните форму ниже и откройте мир музыки
+            </p>
+
+
+            <form class="b-main-page-acces-form-container" method="get">
+                <input class="main-page-acces-inputs" type="text" id="fname" name="fname" placeholder="Имя">
+                <input class="main-page-acces-inputs" type="text" id="email" name="email" placeholder="Email">
+                <button class="main-page-acces-form-button">
+                    получить доступ
+                </button>
+            </form>
+
         </div>
+
     </div>
-    </div>
+
     <main>
 
-        <div class="wrapper wrapper--padding-top-100px">
-            <section class="b-subscribe">
-                <h2 class="visually-hidden">Варианты подписки</h2>
-                
-                <h2 class="b-subscribe b-subscribe__header 
-                b-subscribe__types--header">
-                        Формы подписки
-                </h2>
-                
-                <ul class="b-subscribe b-subscribe--container">
-                    <li class="b-subscribe__free
-                        b-subscribe__free--card">
-                        <p>Бесплатная</p>
-                        <p class="b-subscribe__container--text-xxl">0
-                            <sup class="b-subscribe__container--text-l">руб.</sup>
+        <section class="wrapper pt100 pb100">
+            <h2 class="fsz-20-29-38 txt-up txt-center mb50">
+                Формы подписки
+            </h2>
+
+            <ul class="subscribe-cards-container display-flex list-style-none txt-up">
+
+                <li class="card-container mb50 display-flex f-direction-column f-align-center bg-free">
+                    <p class="fsz-16-24">Бесплатная</p>
+                    <div class="display-flex f-direction-column f-align-center f-content-sb subsribe-description-holster">
+                        <p class="fsz60 p-m-0">0
+                            <sup class="fsz30">руб.</sup>
                         </p>
-                        <a class="b-subscribe__button
-                            b-subscribe__button--border-text-white" href="#">Оформить</a>
-                        <p class="b-subscribe__container--text-xxs">
+                        <a class="subscribe-btn fsz-12-24 txt-up txt-center txt-decor-none" href="#">Оформить</a>
+                        <p class="fsz11 txt-center txt-low">
                             Оплата в месяц. Бесплатный тариф предоставляет
                             доступ ко всей коллекции музыки.
                             Присутствует реклама
                         </p>
-                    </li>
+                    </div>
+                </li>
 
-                    <li class="b-subscribe__standart
-                        b-subscribe__standart--card">
-                        <p>Стандартная</p>
-                        <p class="b-subscribe__container--text-xxl">250
-                            <sup class="b-subscribe__container--text-l">руб.</sup>
+                <li class="card-container mb50 display-flex f-direction-column f-align-center bg-standart">
+                    <p class="fsz-16-24">Стандартная</p>
+                    <div class="display-flex f-align-center f-direction-column f-content-sb subsribe-description-holster">
+                        <p class="fsz60 p-m-0">250
+                            <sup class="fsz30">руб.</sup>
                         </p>
-                        <a class="b-subscribe__button
-                        b-subscribe__button--border-text-white" href="#">Оформить</a>
-                        <p class="b-subscribe__container--text-xxs">
+                        <a class="subscribe-btn fsz-12-24 txt-up txt-center txt-decor-none" href="#">Оформить</a>
+                        <p class="fsz11 txt-center txt-low">
                             Оплата в месяц. Стандартный тариф предоставляет
                             доступ ко всей коллекции музыки в среднем качестве
                         </p>
-                    </li>
+                    </div>
+                </li>
 
-                    <li class="b-subscribe__premium
-                        b-subscribe__premium--card">
-                        <p>Премиум</p>
-                        <p class="b-subscribe__container--text-xxl">500
-                            <sup class="b-subscribe__container--text-l">руб.</sup>
+                <li class="card-container mb50 display-flex f-direction-column f-align-center bg-premium">
+                    <p class="fsz-16-24">Премиум</p>
+                    <div class="display-flex f-direction-column f-align-center f-content-sb subsribe-description-holster">
+                        <p class="fsz60 p-m-0">500
+                            <sup class="fsz30">руб.</sup>
                         </p>
-                        <a class="b-subscribe__button
-                        b-subscribe__button--border-text-white" href="#">Оформить</a>
-                        <p class="b-subscribe__container--text-xxs">
+                        <a class="subscribe-btn fsz-12-24 txt-up txt-center txt-decor-none" href="#">Оформить</a>
+                        <p class="fsz11 txt-center txt-low">
                             Оплата в месяц. Премиум тариф предоставляет
                             доступ ко всей коллекции музыки в высоком качестве
                         </p>
-                    </li>
-                </ul>
-                <div class="b-subscribe b-subscribe__info b-subscribe__info--standart">
-                    <p>
-                        На всех тарифах возможно прослушивание музыки
-                        с мобильных устройств. На премиум тарифе
-                        вы можете скачать все композиции на ваше устройство
-                        и слушать музыку без подключения к интернету
-                    </p>
-                </div>
-            </section>
-        </div>
+                    </div>
+                </li>
+            </ul>
 
-        <div class="wrapper wrapper--padding-top-100px">
-            <section class="b-news">
-                <h2 class="b-news b-news__header b-news__header--standart">
+            <p class="fsz-12-22 txt-center">
+                На всех тарифах возможно прослушивание музыки
+                с мобильных устройств. На премиум тарифе
+                вы можете скачать все композиции на ваше устройство
+                и слушать музыку без подключения к интернету
+            </p>
+
+        </section>
+
+            <section class="wrapper">
+                <h2 class="fsz-20-29-38 txt-up txt-center mb50">
                     Последние новости
                 </h2>
-                <article class="c-news c-news--flex-two-columns">
-                    <div class="b-eminem b-eminem__img b-eminem__img--width45">
-                        <img src="images\Music to Be Murdered By.png" alt="eminem photo">
+
+                <article class="display-flex f-content-sb news-aricle-container">
+
+                    <div>
+                        <img class="img-fit" src="images/Music_to_Be_Murdered_By.png" alt="Eminem album cover photo">
                     </div>
-                    <div class="c-news c-news--width45-flex-column">
-                        <h2 class="b-eminem__prewiew">Music to Be Murdered By</h2>
-                        <p class="b-eminem__main-text c-news--text-color-secondary">
+
+                    <div class="news-txt-container display-flex f-direction-column">
+                        <h2 class="fsz30">Music to Be Murdered By</h2>
+                        <p class="fsz14 text-color-secondary lh200">
                             Новый альбом Eminem «Music&nbsp;to&nbsp;Be Murdered&nbsp;By»
                             уже доступен в нашем сервисе.
                             На альбоме вас ждёт 20 новых треков.
                         </p>
-                        <div class="b-news-releas-data b-news-releas-data--flex">
-                            <div class="b-news-releas-data__avatar-holster">
-                                <img src="images\avatar.png" height="19">
+                        <div class="releas-data-container display-flex f-content-sb f-align-center">
+                            <div>
+                                <img class="h25-19" src="images\avatar.png" height="19">
                             </div>
-                            <div class="b-news-releas-data__music-box
-                        b-news-releas-data__music-box--yellow-uppercase">
+                            <div class="txt-up color-yellow">
                                 <p>Music&nbsp;box</p>
                             </div>
                             <span> | </span>
-                            <div class="b-news-releas-data
-                        b-news-releas-data--text-grey">
+                            <div class="text-grey">
                                 <p>17/01/2020</p>
                             </div>
                         </div>
-                        <a href="#" class="b-news b-news__button
-                    b-news__button--uppercase-white">
+                        <a href="#" class="news-button txt-up txt-decor-none txt-center">
                             К альбому
                         </a>
                     </div>
                 </article>
-                <article class="c-news c-news--flex-two-columns
-                c-news--flex-two-columns-osborn">
-                    <div class="c-news c-news--width45-flex-column">
-                        <h2 class="b-osborn__prewiew">Ordinary&nbsp;Man</h2>
-                        <p class="b-osborn__main-text c-news--text-color-secondary">
+
+                <article class="display-flex f-content-sb news-aricle-container osborn-order">
+
+                    <div class="news-txt-container display-flex f-direction-column">
+                        <h2 class="fsz30">Ordinary&nbsp;Man</h2>
+                        <p class="fsz14 text-color-secondary lh200">
                             Легенда рока Оззи Озборн спустя 10 лет выпустил
                             новый альбом Ordinary Man.
                             Слушайте в числе первых на Music Box
                         </p>
-                        <div class="b-news-releas-data b-news-releas-data--flex">
-                            <div class="b-news-releas-data__avatar-holster">
-                                <img src="images\avatar.png" height="19">
+                        <div class="releas-data-container display-flex f-content-sb f-align-center">
+                            <div>
+                                <img class="h25-19" src="images\avatar.png">
                             </div>
-                            <div class="b-news-releas-data__music-box
-                        b-news-releas-data__music-box--yellow-uppercase">
+                            <div class="txt-up color-yellow">
                                 <p>Music&nbsp;box</p>
                             </div>
                             <span> | </span>
-                            <div class="b-news-releas-data__release-date-ordinary-man
-                        b-news-releas-data--text-grey">
+                            <div class="text-grey">
                                 <p>24/02/2020</p>
                             </div>
                         </div>
-                        <a href="#" class="b-news b-news__button
-                    b-news__button--uppercase-white">
+                        <a href="#" class="news-button txt-up txt-decor-none txt-center">
                             К альбому
                         </a>
                     </div>
-                    <div class="b-osborn__img">
-                        <img src="images\Ordinary Man.png">
+                    <div>
+                        <img class="img-fit" src="images\Ordinary_Man.png" alt="Osborn album cover">
                     </div>
                 </article>
             </section>
-        </div>
-
-        <div class="wrapper wrapper--padding-top-100px wrapper--padding-bottom-100px">
-            <section class="b-mobile-application">
-                <h2 class="b-mobile-application__header
-            b-mobile-application__header--center-uppercase">
+        
+            <section class="wrapper pt100 pb100 b-mobile-application">
+                <h2 class="fsz-20-29-38 txt-up txt-center mb50">
                     Мобильное приложение
                 </h2>
-                <div class="c-mobile-application c-mobile-application--flex-two-columns">
-                    <div class="b-mobile-application__text
-            b-mobile-application__text--width50">
+                <div class="display-flex f-align-center mobile-application-container">
+                    <div class="mobile-application-text-container">
                         <p>Воспользуйтесь нашим мобильным приложением.
                             Оно позволит слушать музыку с любого устройства
                             на базе операционных систем Androind и iOS
@@ -246,119 +223,119 @@
                             все композиции из нашей коллекции.
                             Вы можете слушать музыку даже без интернета.
                         </p>
-                        <button class="b-mobile-application__button
-                        b-mobile-application__button--malina">Скачать</button>
+                        <button class="mobile-application-button">Скачать</button>
                     </div>
 
-                    <div class="b-mobile-application__img b-mobile-application__img--center">
+                    <div class="mobile-application-img-container">
                         <img src="images\iphone.png" alt="mobile phones photo">
                     </div>
                 </div>
             </section>
-        </div>
+
     </main>
+
     <footer>
-        <div class="wrapper wrapper--margin-top-100">
-            <div class="b-footer b-footer--container">
-                <ul class="b-about b-footer--list-style-margin-first-child">
-                    <li class="b-about__item">
-                        <a class="b-about__item--text-no-decoration-text-secondary" href="#">
+        <div class="wrapper pt80  mb100">
+            <div class="footer-container display-flex f-content-sb">
+                <ul class="footer-blocks-styles list-style-none">
+                    <li>
+                        <a class="footer-link-styles txt-decor-none fsz16" href="#">
                             О нас
                         </a>
                     </li>
-                    <li class="b-about__item">
-                        <a href="#" class="b-about__item--text-no-decoration-text-secondary">
+                    <li>
+                        <a href="#" class="footer-link-styles txt-decor-none fsz16">
                             История компании
                         </a>
                     </li>
-                    <li class="b-about__item">
-                        <a href="#" class="b-about__item--text-no-decoration-text-secondary">
+                    <li>
+                        <a href="#" class="footer-link-styles txt-decor-none fsz16">
                             Карьера
                         </a>
                     </li>
-                    <li class="b-about__item">
-                        <a href="#" class="b-about__item--text-no-decoration-text-secondary">
+                    <li>
+                        <a href="#" class="footer-link-styles txt-decor-none fsz16">
                             Особенности
                         </a>
                     </li>
-                    <li class="b-about__item">
-                        <a href="#" class="b-about__item--text-no-decoration-text-secondary">
+                    <li>
+                        <a href="#" class="footer-link-styles txt-decor-none fsz16">
                             Пресса
                         </a>
                     </li>
                 </ul>
-                <ul class="b-support b-footer--list-style-margin-first-child">
-                    <li class="b-support__item">
-                        <a href="#" class="b-about__item--text-no-decoration-text-secondary">
+                <ul class="footer-blocks-styles list-style-none">
+                    <li>
+                        <a href="#" class="footer-link-styles txt-decor-none fsz16">
                             Потдержка
                         </a>
                     </li>
-                    <li class="b-support__item">
-                        <a href="#" class="b-about__item--text-no-decoration-text-secondary">
+                    <li>
+                        <a href="#" class="footer-link-styles txt-decor-none fsz16">
                             База заний
                         </a>
                     </li>
-                    <li class="b-support__item">
-                        <a href="#" class="b-about__item--text-no-decoration-text-secondary">
+                    <li>
+                        <a href="#" class="footer-link-styles txt-decor-none fsz16">
                             Тарифы
                         </a>
                     </li>
-                    <li class="b-support__item">
-                        <a href="#" class="b-about__item--text-no-decoration-text-secondary">
+                    <li>
+                        <a href="#" class="footer-link-styles txt-decor-none fsz16">
                             Мобильное приложение
                         </a>
                     </li>
-                    <li class="b-support__item">
-                        <a href="#" class="b-about__item--text-no-decoration-text-secondary">
+                    <li>
+                        <a href="#" class="footer-link-styles txt-decor-none fsz16">
                             Использование
                         </a>
                     </li>
                 </ul>
-                <ul class="b-contacts b-footer--list-style-margin-first-child">
-                    <li class="b-contacts__item">
-                        <a href="#" class="b-about__item--text-no-decoration-text-secondary">
+                <ul class="footer-blocks-styles list-style-none">
+                    <li>
+                        <a href="#" class="footer-link-styles txt-decor-none fsz16">
                             Контакты
                         </a>
                     </li>
-                    <li class="b-contacts__item">
-                        <a href="mailto:hello@music.box" class="b-about__item--text-no-decoration-text-secondary">
+                    <li>
+                        <a href="mailto:hello@music.box" class="footer-link-styles txt-decor-none fsz16">
                             hello@music.box
                         </a>
                     </li>
-                    <li class="b-contacts__item">
-                        <a href="#" class="b-about__item--text-no-decoration-text-secondary">
+                    <li>
+                        <a href="#" class="footer-link-styles txt-decor-none fsz16">
                             <address>
                                 Russia, Moscow. Music Box studio
                             </address>
                         </a>
                     </li>
-                    <li class="b-contacts__item">
-                        <a href="#" class="b-about__item--text-no-decoration-text-secondary">
+                    <li>
+                        <a href="#" class="footer-link-styles txt-decor-none fsz16">
                             + 7 499 999 99 99
                         </a>
                     </li>
                 </ul>
-                <ul class="b-social b-footer--list-style-margin-first-child">
-                    <li class="b-social__item b-about__item--text-no-decoration-text-secondary">
+                <ul class="footer-blocks-styles list-style-none">
+                    <li class="footer-link-styles txt-decor-none fsz16">
                         Подписывайтесь
                     </li>
-                    <div class="b-social__wrapper b-social__wrapper--flex">
-                        <li class="b-social__item">
+                    <div class="social-container display-flex f-content-sb">
+                        <li>
                             <a href="#">
                                 <img src="images\Google+.png" height="16">
                             </a>
                         </li>
-                        <li class="b-social__item">
+                        <li>
                             <a>
                                 <img src="images\Twitter.png" height="16">
                             </a>
                         </li>
-                        <li class="b-social__item">
+                        <li>
                             <a href="#">
                                 <img src="images\Facebook.png" height="16">
                             </a>
                         </li>
-                        <li class="b-social__item">
+                        <li>
                             <a href="#">
                                 <img src="images\Instagram.png" height="16">
                             </a>
@@ -368,32 +345,32 @@
             </div>
         </div>
 
-        <div class="b-footer b-footer--white-line"></div>
+        <div class="footer-white-line-styles"></div>
 
-        <div class="wrapper">
-            <ul class="b-footer-navigation b-footer-navigation--container">
-                <li class="b-support__item">
-                    <a href="#" class="b-support__item--link">
+        <div class="wrapper pt50 pb50">
+            <ul class="footer-navigation-container display-flex f-content-sb list-style-none lh20">
+                <li>
+                    <a href="#" class="footer-link-styles txt-decor-none fsz16">
                         Магазин
                     </a>
                 </li>
-                <li class="b-support__item">
-                    <a href="#" class="b-support__item--link">
+                <li>
+                    <a href="#" class="footer-link-styles txt-decor-none fsz16">
                         Обслуживание
                     </a>
                 </li>
-                <li class="b-support__item">
-                    <a href="#" class="b-support__item--link">
+                <li>
+                    <a href="#" class="footer-link-styles txt-decor-none fsz16">
                         Блог
                     </a>
                 </li>
-                <li class="b-support__item">
-                    <a href="#" class="b-support__item--link">
+                <li>
+                    <a href="#" class="footer-link-styles txt-decor-none fsz16">
                         Потдержка
                     </a>
                 </li>
-                <li class="b-support__item">
-                    <a href="#" class="b-support__item--link">
+                <li>
+                    <a href="#" class="footer-link-styles txt-decor-none fsz16">
                         Контакты
                     </a>
                 </li>
