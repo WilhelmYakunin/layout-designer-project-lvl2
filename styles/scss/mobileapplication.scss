@@ -13,24 +13,6 @@
     }
 }
 
-.mobile-application-img-container {
-    width: 20%;
-    margin: auto;
-    &>img {
-        position: relative;
-        top: 20px;
-        left: -120px;
-        margin: 0;
-        height: 90%;
-        object-fit: cover;
-        @media (min-width: 768px) {
-            position: static;
-            width: 180%;
-            height: 180%;
-        }
-    }
-}
-
 .mobile-application-button {
     margin-top: 20px;
     padding: 15px;

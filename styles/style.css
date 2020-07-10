@@ -49,7 +49,7 @@
 .fsz-12-18 {
   font-size: 12px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .fsz-12-18 {
     font-size: 18px;
   }
@@ -428,26 +428,6 @@ input[type=text]::-webkit-input-placeholder {
   }
 }
 
-.mobile-application-img-container {
-  width: 20%;
-  margin: auto;
-}
-.mobile-application-img-container > img {
-  position: relative;
-  top: 20px;
-  left: -120px;
-  margin: 0;
-  height: 90%;
-  object-fit: cover;
-}
-@media (min-width: 768px) {
-  .mobile-application-img-container > img {
-    position: static;
-    width: 180%;
-    height: 180%;
-  }
-}
-
 .mobile-application-button {
   margin-top: 20px;
   padding: 15px;
@@ -651,18 +631,18 @@ input[type=text]::-webkit-input-placeholder {
   background-size: cover;
 }
 .album-out-of-my-hands-album {
-  background: url("../images/Out of My Hands.png");
+  background: url("../images/Out_of_My_Hands.png");
   background-size: cover;
 }
 .album-letter-from-egypt-album {
-  background: url("../images/Letter from Egypt.png");
+  background: url("../images/Letter_from_Egypt.png");
 }
 .album-vogts-villa-album {
-  background: url("../images/Vogts Villa.png");
+  background: url("../images/Vogts_Villa.png");
   background-size: cover;
 }
 .album-wild-seed-album {
-  background: url("../images/Wild Seed.png");
+  background: url("../images/Wild_Seed.png");
   background-size: cover;
 }
 .album-poetenes-evangelium-album {
@@ -801,6 +781,7 @@ body {
 
 .wrapper {
   margin: auto;
+  margin: auto;
   max-width: 1200px;
 }
 @media (max-width: 320px) {
@@ -850,6 +831,10 @@ body {
 
 .mb40 {
   margin-bottom: 40px;
+}
+
+.m-auto {
+  margin: auto;
 }
 
 .bg-layout-cover-norepeat-position-center {
