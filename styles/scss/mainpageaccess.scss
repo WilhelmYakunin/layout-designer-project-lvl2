@@ -2,14 +2,30 @@ input[type="text"]::-webkit-input-placeholder {
     color: $palette-text-primary;
 }
 
+.main-page-access-container {
+
+    @media (max-width: 425px) {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    @media (max-width: 768px) {
+        padding-top: 130px;
+        padding-bottom: 100px;
+    }
+    @media (max-width: 1024px) {
+        padding-top: 170px;
+        padding-bottom: 200px;
+    }
+    @media (min-width: 1024px) {
+        padding-top: 230px;
+        padding-bottom: 250px;
+    }
+}
+
 .b-main-page-acces-form-container {
     max-width: 570px;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: space-between;
     flex-wrap: wrap;
-
 }
 
 .main-page-acces-inputs {

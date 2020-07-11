@@ -52,6 +52,13 @@
     }
 }
 
+.fsz-14-20 {
+    font-size: 14px;
+    @media (min-width: 1024px) {
+        font-size: 20px;
+    }
+}
+
 .fsz-16-24 {
     font-size: 16;
     @media (min-width: 1024px) {
