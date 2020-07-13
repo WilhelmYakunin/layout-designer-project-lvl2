@@ -6,10 +6,13 @@
 }
 
 .mobile-application-text-container {
-    width: 100%;
+    width: 280px;
     color: $palette-is-not-active-link;
     @media (min-width: 768px) {
-        width: 45%;
+        width: 340px;
+    }
+    @media (min-width: 1280px) {
+        width: 570px;
     }
 }
 
@@ -20,11 +23,11 @@
     border-radius: 50px;
     color: $palette-text-primary;
     border: 1px solid $palette-button-download-app;
-    width: 100%;
+    width: 280px;
     @media (min-width: 768px) {
-        width: 50%;
+        width: 200px;
     }
     @media (min-width: 1024px) {
-        width: 35%;
+        width: 130px;
     }
 }

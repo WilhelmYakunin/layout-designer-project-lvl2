@@ -3,7 +3,13 @@
     padding: 0;
     max-width: 600px;
     @media (min-width: 768px) {
-        min-width: 45%;
+        min-width: 280px;
+    }
+    @media (min-width: 1024px) {
+        min-width: 350px;
+    }
+    @media (min-width: 1280px) {
+        width: 570px;
     }
 }
 
@@ -20,7 +26,7 @@
     max-width: 600px;
 }
 
-.h-50-55 {
+.h-mob50-desk55 {
     height: 50px;
     width: 50px;
     @media (min-width: 768px) {
@@ -50,9 +56,15 @@
           
 .popular-tracks-cover {
     padding-top: 50px;
-    width: 100%;
+    width: 280px;
     flex-wrap: wrap;
     @media (min-width: 768px) {
-        min-width: 45%;
+        width: 600px;
+    }
+    @media (min-width: 1024px) {
+        width: 960px;
+    }
+    @media (min-width: 1280px) {
+        width: 1200px;
     }
 }

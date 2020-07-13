@@ -1,5 +1,4 @@
 @import "variables";
-@import "layout-styles";
 @import "fonts";
 @import "header";
 @import "mainpageaccess";
@@ -54,20 +53,24 @@ body {
     }
 }
 
-.pt100 {
-   padding-top: 100px;
+.mt100 {
+   margin-top: 100px;
 }
 
-.pb100 {
-    padding-bottom: 100px;
+.mb100 {
+    margin-bottom: 100px;
+}
+
+.mt80 {
+    margin-top: 80px;
 }
 
 .pt80 {
     padding-top: 80px;
 }
 
-.pt50 {
-    padding-top: 50px;
+.mt50 {
+    margin-top: 50px;
 }
 
 .pt25 {
@@ -132,7 +135,7 @@ body {
     flex-direction: column;
 }
 
-.f-content-sb {
+.justify-content-between {
     justify-content: space-between;
 }
 

@@ -50,7 +50,6 @@ input[type="text"]::-webkit-input-placeholder {
     border-radius: 3px;
     border: 1px solid transparent;
     color: $palette-text-primary;
-    text-transform: uppercase;
     background-color: $palette-button-access;
     @media (min-width: 768px) {
         margin-top: 20px;

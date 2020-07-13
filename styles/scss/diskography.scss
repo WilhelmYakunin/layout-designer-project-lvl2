@@ -14,7 +14,7 @@
     }
 }
 
-.fsz-16-20 {
+.fsz-mob16-desk20 {
     font-size: 16px;
     @media (min-width: 1024px) {
         font-size: 20px;
@@ -25,7 +25,7 @@
     height: 250px;
     width: 130px;
     align-content: stretch;
-    line-height: 150%;
+    line-height: 23px;
     @media (min-width: 425px) {
         height: 300px;
         width: 180px;

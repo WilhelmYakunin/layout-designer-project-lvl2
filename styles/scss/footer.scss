@@ -1,4 +1,4 @@
-footer {
+.bg-gradient {
     background-image: $palette-footer;
 }
 
@@ -27,15 +27,12 @@ footer {
 }
 
 .footer-link-styles {
-    line-height: 200%;
+    line-height: 30px;
     color: $palette-text-secondary;
 }
 
 .social-container {
-    width: 50%;
-    @media (min-width: 768px) {
-        width: 100%;
-    }
+    width: 150px;
 }
 
 .footer-white-line-styles {

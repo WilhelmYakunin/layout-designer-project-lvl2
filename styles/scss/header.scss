@@ -2,12 +2,11 @@
     margin: auto;
     max-width: 1200px;
     min-height: 170px;
-    display: flex;
     flex-direction: column;
     align-items: baseline;
     @media (min-width: 1024px) {
         min-height: 30px;
-        width: 100%;
+        width: 900px;
         flex-direction: row;
         align-items: center;
     }
@@ -24,7 +23,7 @@
     }
 }
 
-.h-20-17 {
+.h-mob20-desk17 {
     height: 20px;
     @media (min-width: 1024px) {
         height: 17px;
