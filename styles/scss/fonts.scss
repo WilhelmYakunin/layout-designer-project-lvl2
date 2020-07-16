@@ -1,3 +1,24 @@
+h1 {
+    font-size: 30px;
+    @media (min-width: 1280px) {
+        font-size: 60px;
+    }
+}
+
+h2 {
+    font-size: 20px;
+    @media (min-width: 768px) {
+       font-size: 29px;
+    }      
+    @media (min-width: 1024px) {
+        font-size: 38px;
+    }      
+}
+
+.h3 {
+    font-size: 30px;
+}
+
 .fsz11 {
     font-size: 11px;
 }
@@ -14,76 +35,59 @@
     line-height: 200%;
 }
 
-.fsz-20-29-38 {
-    font-size: 20px;
-    @media (min-width: 768px) {
-       font-size: 29px;
-    }      
-    @media (min-width: 1024px) {
-        font-size: 38px;
-    }      
-}
-
-.fsz-30-60 {
-    font-size: 30px;
-    @media (min-width: 1280px) {
-        font-size: 60px;
-    }
-}
-
-.fsz-18-30 {
+.fsz-mob18-desk30 {
     font-size: 18px;
     @media (min-width: 1280px) {
         font-size: 30px;
     }
 }
 
-.fsz-12-18 {
+.fsz-mob12-desk18 {
     font-size: 12px;
     @media (min-width: 768px) {
         font-size: 18px;
     }
 }
 
-.fsz-14-18 {
+.fsz-mob16-desk24 {
     font-size: 14px;
     @media (min-width: 1024px) {
         font-size: 18px;
     }
 }
 
-.fsz-14-20 {
+.fsz-mob14-desk20 {
     font-size: 14px;
     @media (min-width: 1024px) {
         font-size: 20px;
     }
 }
 
+.fsz-mob14-desk18 {
+    font-size: 14px;
+    @media (min-width: 1024px) {
+        font-size: 18px;
+    }
+}
+
 .fsz-16-24 {
-    font-size: 16;
+    font-size: 16px;
     @media (min-width: 1024px) {
         font-size: 24px;
     }
 }
 
-.fsz-12-22 {
+.fsz-mob12-desk22 {
     font-size: 12px;
     @media (min-width: 1024px) {
         font-size: 22px;
     }
 }
 
-.fsz-12-24 {
+.fsz-mob12-desk24 {
     font-size: 12px;
     @media (min-width: 1024px) {
         font-size: 24px;
-    }
-}
-
-.fsz-20-38 {
-    font-size: 20px;
-    @media (min-width: 1024px) {
-        font-size: 38px;
     }
 }
 

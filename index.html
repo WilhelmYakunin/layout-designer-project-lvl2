@@ -14,53 +14,54 @@
 </head>
 
 <body>
-    <div class="bg-layout-cover-norepeat-position-center bg-main-page">
 
-        <header class="wrapper header-container display-flex justify-content-between pt25">
-            <div class="site-logo-container site-logo-order display-flex justify-content-between f-align-center">
-                <img class="h-mob20-desk17" src=".\images\logo.svg" alt="логотип сайта">
-                <p class="fsz11 txt-up">Music&nbsp;box</p>
-            </div>
-            <nav class="site-navigation-order">
-                <ul class="site-navigation-container display-flex list-style-none fsz11 txt-up">
-                    <li>
-                        <a class="site-navigation-link txt-decor-none" href="index.html">
-                            Главная
-                        </a>
-                    </li>
-                    <li>
-                        <a class="site-navigation-link txt-decor-none" href="#">
-                            Каталог
-                        </a>
-                    </li>
-                    <li>
-                        <a class="site-navigation-link txt-decor-none" href="/catalog.html">
-                            Исполнители
-                        </a>
-                    </li>
-                    <li>
-                        <a class="site-navigation-link txt-decor-none" href="#">
-                            Контакты
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="searcform-container search-form-order">
-                <input class="search-input-styles" placeholder="поиск..." type="search">
-            </div>
-        </header>
+    <header class="wrapper header-container display-flex justify-content-between pt25">
+        <div class="site-logo-container site-logo-order-sm display-flex justify-content-between f-align-center">
+            <img class="h-mob20-desk17" src=".\images\logo.svg" alt="логотип сайта">
+            <p class="fsz11 txt-up">Music&nbsp;box</p>
+        </div>
+        <nav class="site-navigation-order-sm">
+            <ul class="site-navigation-container display-flex list-style-none fsz11 txt-up">
+                <li>
+                    <a class="site-navigation-link txt-decor-none" href="index.html">
+                        Главная
+                    </a>
+                </li>
+                <li>
+                    <a class="site-navigation-link txt-decor-none" href="#">
+                        Каталог
+                    </a>
+                </li>
+                <li>
+                    <a class="site-navigation-link txt-decor-none" href="/catalog.html">
+                        Исполнители
+                    </a>
+                </li>
+                <li>
+                    <a class="site-navigation-link txt-decor-none" href="#">
+                        Контакты
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="search-form-container search-form-order-sm">
+            <input class="search-input-styles" placeholder="поиск..." type="search">
+        </div>
+    </header>
 
-        <main>
+    <main>
 
-            <div class="wrapper main-page-access-container display-flex f-direction-column f-align-center">
+        <div class="bg-layout-cover-norepeat-position-center bg-main-page">
 
-                <h1 class="fsz-30-60 txt-up txt-center p-m-0">
+            <div class="wrapper pt250 pb250 main-page-access-container display-flex f-direction-column f-align-center">
+
+                <h1 class="txt-up txt-center p-m-0">
                     Онлайн музыка где угодно
                 </h1>
 
-                <h2 class="fsz-18-30 txt-up txt-center">без ограничений</h2>
+                <p class="fsz-mob18-desk30 txt-up txt-center">без ограничений</p>
 
-                <p class="fsz-12-18 txt-center">
+                <p class="fsz-mob12-desk18 txt-center">
                     Получите доступ всего за несколько шагов.
                     Заполните форму ниже и откройте мир музыки
                 </p>
@@ -69,165 +70,168 @@
                 <form class="b-main-page-acces-form-container display-flex justify-content-between" method="get">
                     <input class="main-page-acces-inputs" type="text" id="fname" name="fname" placeholder="Имя">
                     <input class="main-page-acces-inputs" type="text" id="email" name="email" placeholder="Email">
-                    <button class="main-page-acces-form-button txt-up">
+                    <button class="button acces-form-button txt-up">
                         Получить доступ
                     </button>
                 </form>
 
             </div>
 
-    </div>
-
-    <section class="wrapper mt100">
-        <h2 class="fsz-20-29-38 txt-up txt-center mb50">
-            Формы подписки
-        </h2>
-
-        <ul class="subscribe-cards-container display-flex list-style-none txt-up">
-
-            <li class="card-container mb50 display-flex f-direction-column f-align-center bg-free">
-                <p class="fsz-16-24">Бесплатная</p>
-                <div class="display-flex f-direction-column f-align-center f-content-sb subsribe-description-holster">
-                    <p class="fsz60 p-m-0">0
-                        <sup class="fsz30">руб.</sup>
-                    </p>
-                    <a class="subscribe-btn fsz-12-24 txt-up txt-center txt-decor-none" href="#">Оформить</a>
-                    <p class="fsz11 txt-center txt-low">
-                        Оплата в месяц. Бесплатный тариф предоставляет
-                        доступ ко всей коллекции музыки.
-                        Присутствует реклама
-                    </p>
-                </div>
-            </li>
-
-            <li class="card-container mb50 display-flex f-direction-column f-align-center bg-standart">
-                <p class="fsz-16-24">Стандартная</p>
-                <div class="display-flex f-align-center f-direction-column f-content-sb subsribe-description-holster">
-                    <p class="fsz60 p-m-0">250
-                        <sup class="fsz30">руб.</sup>
-                    </p>
-                    <a class="subscribe-btn fsz-12-24 txt-up txt-center txt-decor-none" href="#">Оформить</a>
-                    <p class="fsz11 txt-center txt-low">
-                        Оплата в месяц. Стандартный тариф предоставляет
-                        доступ ко всей коллекции музыки в среднем качестве
-                    </p>
-                </div>
-            </li>
-
-            <li class="card-container mb50 display-flex f-direction-column f-align-center bg-premium">
-                <p class="fsz-16-24">Премиум</p>
-                <div class="display-flex f-direction-column f-align-center f-content-sb subsribe-description-holster">
-                    <p class="fsz60 p-m-0">500
-                        <sup class="fsz30">руб.</sup>
-                    </p>
-                    <a class="subscribe-btn fsz-12-24 txt-up txt-center txt-decor-none" href="#">Оформить</a>
-                    <p class="fsz11 txt-center txt-low">
-                        Оплата в месяц. Премиум тариф предоставляет
-                        доступ ко всей коллекции музыки в высоком качестве
-                    </p>
-                </div>
-            </li>
-        </ul>
-
-        <p class="fsz-12-22 txt-center">
-            На всех тарифах возможно прослушивание музыки
-            с мобильных устройств. На премиум тарифе
-            вы можете скачать все композиции на ваше устройство
-            и слушать музыку без подключения к интернету
-        </p>
-
-    </section>
-
-    <section class="wrapper mt100">
-        <h2 class="fsz-20-29-38 txt-up txt-center mb50">
-            Последние новости
-        </h2>
-
-        <article class="display-flex justify-content-between news-aricle-container">
-
-            <div>
-                <img class="img-fit" src="images/Music_to_Be_Murdered_By.png" alt="Eminem album cover photo">
-            </div>
-
-            <div class="news-txt-container display-flex f-direction-column">
-                <h2 class="fsz30">Music to Be Murdered By</h2>
-                <p class="fsz14 text-color-secondary lh200">
-                    Новый альбом Eminem «Music&nbsp;to&nbsp;Be Murdered&nbsp;By»
-                    уже доступен в нашем сервисе.
-                    На альбоме вас ждёт 20 новых треков.
-                </p>
-                <div class="releas-data-container display-flex justify-content-between f-align-center">
-                    <div>
-                        <img class="h-mob25-desk19" src="images\avatar.png" height="19">
-                    </div>
-                    <div class="txt-up color-yellow">
-                        <p>Music&nbsp;box</p>
-                    </div>
-                    <span> | </span>
-                    <div class="text-grey">
-                        <p>17/01/2020</p>
-                    </div>
-                </div>
-                <a href="#" class="news-button txt-up txt-decor-none display-flex f-align-center">
-                    К альбому
-                </a>
-            </div>
-        </article>
-
-        <article class="display-flex justify-content-between news-aricle-container osborn-order">
-
-            <div class="news-txt-container display-flex f-direction-column">
-                <h2 class="fsz30">Ordinary&nbsp;Man</h2>
-                <p class="fsz14 text-color-secondary lh200">
-                    Легенда рока Оззи Озборн спустя 10 лет выпустил
-                    новый альбом Ordinary Man.
-                    Слушайте в числе первых на Music Box
-                </p>
-                <div class="releas-data-container display-flex justify-content-between f-align-center">
-                    <div>
-                        <img class="h-mob25-desk19" src="images\avatar.png">
-                    </div>
-                    <div class="txt-up color-yellow">
-                        <p>Music&nbsp;box</p>
-                    </div>
-                    <span> | </span>
-                    <div class="text-grey">
-                        <p>24/02/2020</p>
-                    </div>
-                </div>
-                <a href="#" class="news-button txt-up txt-decor-none display-flex f-align-center">
-                    К альбому
-                </a>
-            </div>
-            <div class="news-img-container">
-                <img class="img-fit" src="images\Ordinary_Man.png" alt="Osborn album cover">
-            </div>
-        </article>
-    </section>
-
-    <section class="wrapper mt100">
-        <h2 class="fsz-20-29-38 txt-up txt-center mb50">
-            Мобильное приложение
-        </h2>
-        <div class="display-flex f-align-center mobile-application-container">
-            <div class="mobile-application-text-container">
-                <p>Воспользуйтесь нашим мобильным приложением.
-                    Оно позволит слушать музыку с любого устройства
-                    на базе операционных систем Androind и iOS
-                </p>
-                <p>
-                    С тарифом «Премиум» приложение позволяет скачивать
-                    все композиции из нашей коллекции.
-                    Вы можете слушать музыку даже без интернета.
-                </p>
-                <button class="mobile-application-button">Скачать</button>
-            </div>
-
-            <div class="m-auto">
-                <img class="img-fit" src="images\iphone.png" alt="mobile phones photo">
-            </div>
         </div>
-    </section>
+
+        <section class="wrapper mt100">
+            <h2 class="txt-up txt-center mb50">
+                Формы подписки
+            </h2>
+
+            <div class="subscribe-cards-container display-flex list-style-none txt-up">
+
+                <div class="card-container mb50 display-flex f-direction-column f-align-center bg-free">
+                    <p class="fsz-mob16-desk24">Бесплатная</p>
+                    <div
+                        class="display-flex f-direction-column f-align-center f-content-sb subsribe-description-holster">
+                        <p class="fsz60 p-m-0">0
+                            <sup class="fsz30">руб.</sup>
+                        </p>
+                        <a class="subscribe-btn fsz-mob12-desk24 txt-up txt-center txt-decor-none" href="#">Оформить</a>
+                        <p class="fsz11 txt-center txt-low">
+                            Оплата в месяц. Бесплатный тариф предоставляет
+                            доступ ко всей коллекции музыки.
+                            Присутствует реклама
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card-container mb50 display-flex f-direction-column f-align-center bg-standart">
+                    <p class="fsz-mob16-desk24">Стандартная</p>
+                    <div
+                        class="display-flex f-align-center f-direction-column f-content-sb subsribe-description-holster">
+                        <p class="fsz60 p-m-0">250
+                            <sup class="fsz30">руб.</sup>
+                        </p>
+                        <a class="subscribe-btn fsz-mob12-desk24 txt-up txt-center txt-decor-none" href="#">Оформить</a>
+                        <p class="fsz11 txt-center txt-low">
+                            Оплата в месяц. Стандартный тариф предоставляет
+                            доступ ко всей коллекции музыки в среднем качестве
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card-container mb50 display-flex f-direction-column f-align-center bg-premium">
+                    <p class="fsz-mob16-desk24">Премиум</p>
+                    <div
+                        class="display-flex f-direction-column f-align-center f-content-sb subsribe-description-holster">
+                        <p class="fsz60 p-m-0">500
+                            <sup class="fsz30">руб.</sup>
+                        </p>
+                        <a class="subscribe-btn fsz-mob12-desk24 txt-up txt-center txt-decor-none" href="#">Оформить</a>
+                        <p class="fsz11 txt-center txt-low">
+                            Оплата в месяц. Премиум тариф предоставляет
+                            доступ ко всей коллекции музыки в высоком качестве
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <p class="fsz-mob12-desk22 txt-center">
+                На всех тарифах возможно прослушивание музыки
+                с мобильных устройств. На премиум тарифе
+                вы можете скачать все композиции на ваше устройство
+                и слушать музыку без подключения к интернету
+            </p>
+
+        </section>
+
+        <section class="wrapper mt100">
+            <h2 class="txt-up txt-center mb50">
+                Последние новости
+            </h2>
+
+            <article class="display-flex justify-content-between news-aricle-container">
+
+                <div>
+                    <img class="img-fit" src="images/Music_to_Be_Murdered_By.png" alt="Eminem album cover photo">
+                </div>
+
+                <div class="news-txt-container display-flex f-direction-column">
+                    <h3>Music to Be Murdered By</h3>
+                    <p class="fsz14 text-color-secondary lh200">
+                        Новый альбом Eminem «Music&nbsp;to&nbsp;Be Murdered&nbsp;By»
+                        уже доступен в нашем сервисе.
+                        На альбоме вас ждёт 20 новых треков.
+                    </p>
+                    <div class="releas-data-container display-flex justify-content-between f-align-center">
+                        <div>
+                            <img class="h-mob25-desk19" src="images\avatar.png" height="19">
+                        </div>
+                        <div class="txt-up color-yellow">
+                            <p>Music&nbsp;box</p>
+                        </div>
+                        <span> | </span>
+                        <div class="text-grey">
+                            <p>17/01/2020</p>
+                        </div>
+                    </div>
+                    <a href="#" class="news-button text-grey txt-up txt-decor-none display-flex f-align-center">
+                        К альбому
+                    </a>
+                </div>
+            </article>
+
+            <article class="display-flex justify-content-between news-aricle-container news-second-order-sm">
+
+                <div class="news-txt-container display-flex f-direction-column">
+                    <h3>Ordinary&nbsp;Man</h3>
+                    <p class="fsz14 text-color-secondary lh200">
+                        Легенда рока Оззи Озборн спустя 10 лет выпустил
+                        новый альбом Ordinary Man.
+                        Слушайте в числе первых на Music Box
+                    </p>
+                    <div class="releas-data-container display-flex justify-content-between f-align-center">
+                        <div>
+                            <img class="h-mob25-desk19" src="images\avatar.png">
+                        </div>
+                        <div class="txt-up color-yellow">
+                            <p>Music&nbsp;box</p>
+                        </div>
+                        <span> | </span>
+                        <div class="text-grey">
+                            <p>24/02/2020</p>
+                        </div>
+                    </div>
+                    <a href="#" class="news-button txt-up txt-decor-none display-flex f-align-center">
+                        К альбому
+                    </a>
+                </div>
+                <div class="news-img-container">
+                    <img class="img-fit" src="images\Ordinary_Man.png" alt="Osborn album cover">
+                </div>
+            </article>
+        </section>
+
+        <section class="wrapper mt100">
+            <h2 class="txt-up txt-center mb50">
+                Мобильное приложение
+            </h2>
+            <div class="display-flex f-align-center mobile-application-container">
+                <div class="mobile-application-text-container">
+                    <p>Воспользуйтесь нашим мобильным приложением.
+                        Оно позволит слушать музыку с любого устройства
+                        на базе операционных систем Androind и iOS
+                    </p>
+                    <p>
+                        С тарифом «Премиум» приложение позволяет скачивать
+                        все композиции из нашей коллекции.
+                        Вы можете слушать музыку даже без интернета.
+                    </p>
+                    <button class="button button-mobile-application">Скачать</button>
+                </div>
+
+                <div class="m-auto">
+                    <img class="img-fit" src="images\iphone.png" alt="mobile phones photo">
+                </div>
+            </div>
+        </section>
 
     </main>
 

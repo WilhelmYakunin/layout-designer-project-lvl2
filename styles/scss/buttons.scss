@@ -1,0 +1,68 @@
+
+.button {
+    height: 50px;
+    width: 280px;
+    border: 1px solid transparent;
+    color: $palette-text-primary;
+}
+
+
+.acces-form-button {
+    border-radius: 3px;
+    background-color: $palette-button-access;
+    @media (min-width: 768px) {
+        margin-top: 20px;
+        width: 570px;
+    }
+}
+
+.subscribe-btn {
+    width: 240px;
+    padding: 21px;
+    color: $palette-text-primary;
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    @media (min-width: 1280px) {
+        width: 300px;
+    }
+}
+
+.button-mobile-application {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: $palette-button-download-app;
+    border-radius: 50px;
+    @media (min-width: 768px) {
+        width: 200px;
+    }
+    @media (min-width: 1024px) {
+        width: 130px;
+    }
+}
+
+.musian-button {
+    & img {
+        filter: invert(100%);
+    }
+    @media (min-width: 425px) {
+        width: 200px;
+        margin-right: 35px;
+    }
+}
+
+.musian-button-mix {
+    background-color: $palette-button-mix;
+    
+}
+
+.musian-button-select {
+    background-color: $palette-button-select;
+}
+
+.h-mob20-desk16 {
+    height: 20px;
+    @media (min-width: 1024px) {
+        height: 16px;
+    }
+}
