@@ -3,6 +3,8 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 .main-page-access-container {
+    text-align: center;
+    text-transform: uppercase;
     @media (max-width: 425px) {
         padding-top: 70px;
         padding-bottom: 50px;
@@ -21,27 +23,31 @@ input[type="text"]::-webkit-input-placeholder {
     }
 }
 
-.b-main-page-acces-form-container {
-    max-width: 570px;
-    width: 280px;
-    flex-wrap: wrap;
-    @media (min-width: 768px) {
-        width: 570px;
+.main-page-access {
+    &-form-container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 570px;
+        width: 280px;
+        flex-wrap: wrap;
+        @media (min-width: 768px) {
+            width: 570px;
+        }
+    }
+    &-inputs {
+        margin-bottom: 20px;
+        color: $palette-text-primary;
+        padding: 15px;
+        height: 50px;
+        width: 280px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        box-sizing: border-box;
+        border-radius: 3px;
+        @media (min-width: 768px) {
+            margin-bottom: 0px;
+            width: 270px;
+        }
     }
 }
 
-.main-page-acces-inputs {
-    margin-bottom: 20px;
-    color: $palette-text-primary;
-    padding: 15px;
-    height: 50px;
-    width: 280px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(255, 255, 255, 0.1);
-    box-sizing: border-box;
-    border-radius: 3px;
-    @media (min-width: 768px) {
-        margin-bottom: 0px;
-        width: 270px;
-    }
-}

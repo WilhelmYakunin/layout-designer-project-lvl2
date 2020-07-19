@@ -3,6 +3,8 @@
 }
 
 .footer-container {
+    display: flex;
+    justify-content: space-between;
     flex-direction: column;
     @media (min-width: 768px) {
         flex-direction: row;
@@ -19,6 +21,7 @@
     margin: 0;
     padding: 0;
     margin-bottom: 40px;
+    list-style-type: none;
 
     &>:first-child {
         margin-bottom: 30px;
@@ -27,12 +30,15 @@
 }
 
 .footer-link-styles {
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 200%;
     color: $palette-text-secondary;
 }
 
 .social-container {
     width: 150px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-white-line-styles {
