@@ -37,3 +37,31 @@ $palette-inputs: $x-transparent-white;
 
 $palette-news-music-box: $x-yellow;
 $palette-footer: $x-lenear-gradient;
+
+$breakpoints: (
+  breakpoint-s: 320px,
+  breakpoint-xs: 375px,
+  breakpoint-ms: 425px,
+  breakpoint-xm: 540px,
+  breakpoint-m: 768px,
+  breakpoint-ml: 1024px,
+  breakpoint-l: 1280px
+);
+
+@mixin element {
+    @content;
+ }
+ 
+@mixin media($var) {
+    $string: map-get($breakpoints, breakpoint-#{$var});
+       @media (min-width: $string) {
+       @content;
+     }
+}
+
+@mixin max-media($var) {
+    $string: map-get($breakpoints, breakpoint-#{$var});
+       @media (max-width: $string) {
+       @content;
+     }
+}

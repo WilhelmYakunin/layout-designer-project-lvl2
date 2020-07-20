@@ -10,7 +10,7 @@
 .access-form-button {
     border-radius: 3px;
     background-color: $palette-button-access;
-    @media (min-width: 768px) {
+    @include media(m) {
         margin-top: 20px;
         width: 570px;
     }
@@ -23,7 +23,7 @@
     border: 4px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 4px;
-    @media (min-width: 1280px) {
+    @include media(l) {
         width: 300px;
     }
 }
@@ -32,14 +32,15 @@
     display: flex;
     width: 280px;
     justify-content: center;
+    align-items: center;
     border: 4px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 4px;
     color: $palette-search-form-background;
-    @media (min-width: 768px) {
+    @include media(ml) {
         width: 230px;
     }
-    @media (min-width: 1024px) {
+    @include media(ml) {
         width: 130px;
         height: 40px;
     }
@@ -50,19 +51,21 @@
     padding: 15px;
     background-color: $palette-button-download-app;
     border-radius: 50px;
-    @media (min-width: 768px) {
+    @include media(m) {
         width: 200px;
     }
-    @media (min-width: 1024px) {
+    @include media(ml) {
         width: 130px;
     }
 }
 
 .musian-button {
+    display: flex;
+    align-items: center;
     & img {
         filter: invert(100%);
     }
-    @media (min-width: 425px) {
+    @include media(ms) {
         width: 200px;
         margin-right: 35px;
     }
@@ -75,11 +78,4 @@
 
 .musian-button-select {
     background-color: $palette-button-select;
-}
-
-.h-mob20-desk16 {
-    height: 20px;
-    @media (min-width: 1024px) {
-        height: 16px;
-    }
 }

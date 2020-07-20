@@ -2,12 +2,16 @@
     margin: 0;
     margin-top: 50px;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .similiar-artists-styles {
     height: 200px;
     width: 120px;
+    display: flex;
+    flex-direction: column;
     @media (min-width: 768px) {
         height: 250px;
         width: 190px;

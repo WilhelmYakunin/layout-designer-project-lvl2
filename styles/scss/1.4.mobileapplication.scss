@@ -2,7 +2,10 @@
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
-    @media (min-width: 768px) {
+}
+
+.mobile-application-container-m {
+    @include media(m) {
         flex-direction: row;
     }
 }
@@ -10,13 +13,22 @@
 .mobile-application-text-container {
     width: 280px;
     color: $palette-is-not-active-link;
-    @media (min-width: 540px) {
+}
+
+.mobile-application-text-container-xm {
+    @include media(xm) {
         width: 400px;
     }
-    @media (min-width: 768px) {
+}
+
+.mobile-application-text-container-m {
+    @include media(m) {
         width: 340px;
     }
-    @media (min-width: 1280px) {
+}
+
+.mobile-application-text-container-l {
+    @include media(l) {
         width: 570px;
     }
 }

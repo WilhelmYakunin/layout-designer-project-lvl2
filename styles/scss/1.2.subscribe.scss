@@ -3,10 +3,13 @@
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
-    @media (min-width: 768px) {
-            flex-direction: row;
-            flex-wrap: wrap; 
-            justify-content: space-evenly;           
+}
+
+.subscribe-cards-container-m {
+    @include media(m) {
+        flex-direction: row;
+        flex-wrap: wrap; 
+        justify-content: space-evenly;           
     }
 }
 
@@ -14,13 +17,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 280px;
     height: 460px;
     background-repeat: no-repeat;
     background-size: contain;
-    @media (min-width: 1280px) {
-        width: 350px;
+}
+
+.card-container-l {
+    @include media(l) {
         height: 580px;
+     }
+}
+
+.w-mob280-desk350 {
+    width: 280px;
+    @include media(l) {
+        width: 350px;
     }
 }
 
@@ -29,10 +40,12 @@
     flex-direction: column;
     margin-top: auto;
     margin-bottom: 15px;
-    height: 240px;
     width: 240px;
     align-items: center;
-    @media (min-width: 1280px) {
+}
+
+.subsribe-description-holster-l {
+    @include media(l) {
         margin-bottom: 65px;
         height: 230px;
         width: 300px;

@@ -2,13 +2,16 @@
     display: flex;
     margin-top: 50px;
     flex-direction: column;
-    @media (min-width: 768px) {
-        flex-direction: row;
-    }
     &>div:first-child {
-        @media (min-width: 768px) {
+        @include media(m) {
             padding-right: 70px;
         }
+    }
+}
+
+.news-aricle-container-m {
+    @include media(m) {
+        flex-direction: row;
     }
 }
 
@@ -17,10 +20,16 @@
     flex-direction: column;
     width: 280px;
     justify-content: space-evenly;
-    @media (min-width: 768px) {
+}
+
+.news-txt-container-m {
+    @include media(m) {
         width: 450px;
     }
-    @media (min-width: 1024px) {
+}
+
+.news-txt-container-ml {
+    @include media(ml) {
         width: 570px;
     }
 }
@@ -46,14 +55,17 @@
     justify-content: space-between;
     align-items: center;
     width: 280px;
-    @media (min-width: 768px) {
+}
+
+.releas-data-container-m {
+    @include media(m) {
         width: 230px;
     }
 }
 
 .h-mob25-desk19 {
     height: 19;
-    @media (min-width: 1024px) {
+    @include media(ml) {
         height: 25px;
     }
 }
